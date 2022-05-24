@@ -104,7 +104,29 @@ main {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 1);
 }
 
-.content-error strong {
+.content-error span {
+  font-weight: 700;
+}
+
+.content-footer {
+  position: absolute;
+  align-self: end;
+  width: 100%;
+}
+
+.content-footer p {
+  width: fit-content;
+  margin: auto 4.9vw 2.5vw auto;
+  text-transform: uppercase;
+  font-size: 1.01vw;
+  letter-spacing: 0.1px;
+  color: rgba(229, 229, 229, 0.57);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.content-footer span {
+  color: rgba(229, 229, 229, 0.77);
+  margin-left: 0.4vw;
   font-weight: 700;
 }
 
@@ -139,6 +161,10 @@ main {
     font-size: 3.5vw;
     line-height: 35px;
   }
+
+  .content-footer p {
+    font-size: 12px;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 991px) {
@@ -168,6 +194,10 @@ main {
 
   .content-error p {
     font-size: 2.9vw;
+  }
+
+  .content-footer p {
+    font-size: 15px;
   }
 }
 
