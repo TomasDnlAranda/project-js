@@ -1,6 +1,6 @@
-const moviesDiv = document.getElementById('moviesDiv');
 const moviesTemplate = document.getElementById('moviesTemplate');
 const fragment = document.createDocumentFragment();
+const moviesRow = document.getElementById('moviesRow');
 
 (async () => {
     await fetch("json/movie.json")
@@ -15,8 +15,5 @@ const fragment = document.createDocumentFragment();
             fragment.appendChild(clone)
         })
     })
-    moviesDiv.appendChild(fragment)
+    moviesRow.appendChild(fragment)
 })();
-
-
-
