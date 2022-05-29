@@ -158,8 +158,45 @@ section img {
   width: 100%;
 }
 
+.section-mobile .box-mobile {
+  background-color: black;
+  width: 331px;
+  height: 96px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  border: 2px solid #707070;
+  border-radius: 10px;
+  padding: 8px 10px;
+  transform: translate(30%, -124%);
+}
+
+.box-mobile .box-shot {
+  height: 100%;
+  width: auto;
+}
+
+.box-mobile p {
+  font-weight: bolder;
+  margin: 0 0 0 15px;
+}
+
+.box-mobile .gif {
+  height: 70%;
+  width: auto;
+  margin: 0 0 0 auto;
+}
+
 .section-tv {
   margin: 30px auto 50px auto;
+}
+
+.video-tv {
+  width: 385.5px;
+  position: absolute;
+  z-index: -1;
+  transform: translate(-119.4%, 37.9%);
 }
 
 .section-mobile {
@@ -169,6 +206,13 @@ section img {
 
 .section-device {
   margin: 30px auto 80px auto;
+}
+
+.video-devices {
+  width: 324px;
+  position: absolute;
+  z-index: -1;
+  transform: translate(-133%, 24%);
 }
 
 @media (max-width: 576px) {
@@ -199,7 +243,7 @@ section img {
 
   .dropdown {
     height: 28px;
-    margin: auto;
+    margin: 0 10px 0 auto;
   }
 
   .nav-content h2 {
@@ -271,10 +315,33 @@ section img {
     z-index: 0;
   }
 
+  .section-mobile .box-mobile {
+    width: 70%;
+    height: 15vw;
+    transform: translate(22%, -124%);
+  }
+
+  .box-mobile .gif {
+    height: 100%;
+    width: auto;
+  }
+
   .section-tv,
   .section-mobile,
   .section-device {
     margin: auto;
+  }
+
+  .video-tv {
+    width: 72.5%;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .video-devices {
+    width: 61%;
+    position: absolute;
+    z-index: -1;
   }
 
   .section-device p {
@@ -357,6 +424,11 @@ section img {
     position: relative;
     margin: -30px 0 0 0;
     z-index: 0;
+  }
+
+  .section-mobile .box-mobile {
+    width: 70%;
+    transform: translate(22%, -124%);
   }
 
   .section-tv,
