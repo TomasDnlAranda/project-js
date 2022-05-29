@@ -1,454 +1,454 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border: none;
-  outline: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
 }
 
 body {
-  background-color: black;
-  color: white;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background-color: black;
+	color: white;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 nav {
-  position: relative;
-  background-image: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.8) 0,
-      rgba(0, 0, 0, 0.4) 60%,
-      rgba(0, 0, 0, 0.9) 100%
-    ),
-    url('./img/navBackground.jpg');
-  width: 100%;
-  height: 750px;
-  background-size: cover;
-  background-position: center;
-  z-index: 1;
+	position: relative;
+	background-image: linear-gradient(
+			to top,
+			rgba(0, 0, 0, 0.8) 0,
+			rgba(0, 0, 0, 0.4) 60%,
+			rgba(0, 0, 0, 0.9) 100%
+		),
+		url('../assets/img/navBackground.jpg');
+	width: 100%;
+	height: 750px;
+	background-size: cover;
+	background-position: center;
+	z-index: 1;
 }
 
 .nav-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 25px 55px 20px 55px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px 55px 20px 55px;
 }
 
 .nav-header img {
-  width: 170px;
+	width: 170px;
 }
 
 .nav-header button {
-  background-color: #e50914;
-  color: white;
-  padding: 4px 20px;
-  border-radius: 3px;
+	background-color: #e50914;
+	color: white;
+	padding: 4px 20px;
+	border-radius: 3px;
 }
 
 .dropdown {
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 105px;
-  height: 35px;
-  border: 1px solid;
-  border-radius: 2px;
-  margin: 0 30px 0 auto;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 105px;
+	height: 35px;
+	border: 1px solid;
+	border-radius: 2px;
+	margin: 0 30px 0 auto;
 }
 
 select {
-  background: transparent;
-  color: white;
-  font-size: 14px;
+	background: transparent;
+	color: white;
+	font-size: 14px;
 }
 
 option {
-  color: black;
+	color: black;
 }
 
 .nav-content {
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  word-wrap: normal;
-  flex-direction: column;
-  margin: 150px 20px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	word-wrap: normal;
+	flex-direction: column;
+	margin: 150px 20px;
 }
 
 .nav-content h2 {
-  max-width: 700px;
-  font-size: 60px;
-  font-weight: bold;
+	max-width: 700px;
+	font-size: 60px;
+	font-weight: bold;
 }
 
 .nav-content p {
-  font-size: 25px;
-  margin-bottom: 25px;
+	font-size: 25px;
+	margin-bottom: 25px;
 }
 
 .nav-content h5 {
-  max-width: 800px;
-  font-size: 18px;
-  margin-bottom: 25px;
+	max-width: 800px;
+	font-size: 18px;
+	margin-bottom: 25px;
 }
 
 form {
-  width: 850px;
-  height: 70px;
+	width: 850px;
+	height: 70px;
 }
 
 .input-email {
-  background-color: white;
-  width: 60%;
-  height: 100%;
-  padding: 0 12px;
-  font-size: 20px;
-  border-radius: 2px 0 0 2px;
+	background-color: white;
+	width: 60%;
+	height: 100%;
+	padding: 0 12px;
+	font-size: 20px;
+	border-radius: 2px 0 0 2px;
 }
 
 .input-submit {
-  background-color: #e50914;
-  color: white;
-  width: 220px;
-  height: 100%;
-  font-size: 20px;
-  border-radius: 0 2px 2px 0;
-  margin: -5px;
+	background-color: #e50914;
+	color: white;
+	width: 220px;
+	height: 100%;
+	font-size: 20px;
+	border-radius: 0 2px 2px 0;
+	margin: -5px;
 }
 
 hr {
-  position: relative;
-  background: #707070;
-  color: black;
-  height: 10px;
-  margin: -2px auto;
-  z-index: 0;
+	position: relative;
+	background: #707070;
+	color: black;
+	height: 10px;
+	margin: -2px auto;
+	z-index: 0;
 }
 
 section {
-  padding: 35px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+	padding: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 section .content {
-  max-width: 600px;
+	max-width: 600px;
 }
 
 section .content h3 {
-  font-size: 50px;
-  font-weight: bold;
+	font-size: 50px;
+	font-weight: bold;
 }
 
 section .content p {
-  font-size: 27px;
+	font-size: 27px;
 }
 
 section .image {
-  width: 530px;
+	width: 530px;
 }
 
 section img {
-  width: 100%;
+	width: 100%;
 }
 
 .section-mobile .box-mobile {
-  background-color: black;
-  width: 331px;
-  height: 96px;
-  position: relative;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  border: 2px solid #707070;
-  border-radius: 10px;
-  padding: 8px 10px;
-  transform: translate(30%, -124%);
+	background-color: black;
+	width: 331px;
+	height: 96px;
+	position: relative;
+	z-index: 2;
+	display: flex;
+	align-items: center;
+	border: 2px solid #707070;
+	border-radius: 10px;
+	padding: 8px 10px;
+	transform: translate(30%, -124%);
 }
 
 .box-mobile .box-shot {
-  height: 100%;
-  width: auto;
+	height: 100%;
+	width: auto;
 }
 
 .box-mobile p {
-  font-weight: bolder;
-  margin: 0 0 0 15px;
+	font-weight: bolder;
+	margin: 0 0 0 15px;
 }
 
 .box-mobile .gif {
-  height: 70%;
-  width: auto;
-  margin: 0 0 0 auto;
+	height: 70%;
+	width: auto;
+	margin: 0 0 0 auto;
 }
 
 .section-tv {
-  margin: 30px auto 50px auto;
+	margin: 30px auto 50px auto;
 }
 
 .video-tv {
-  width: 385.5px;
-  position: absolute;
-  z-index: -1;
-  transform: translate(-119.4%, 37.9%);
+	width: 385.5px;
+	position: absolute;
+	z-index: -1;
+	transform: translate(-119.4%, 37.9%);
 }
 
 .section-mobile {
-  flex-wrap: wrap-reverse;
-  margin: 20px auto 45px auto;
+	flex-wrap: wrap-reverse;
+	margin: 20px auto 45px auto;
 }
 
 .section-device {
-  margin: 30px auto 80px auto;
+	margin: 30px auto 80px auto;
 }
 
 .video-devices {
-  width: 324px;
-  position: absolute;
-  z-index: -1;
-  transform: translate(-133%, 24%);
+	width: 324px;
+	position: absolute;
+	z-index: -1;
+	transform: translate(-133%, 24%);
 }
 
 @media (max-width: 576px) {
-  nav {
-    background-image: linear-gradient(
-        to top,
-        rgba(0, 0, 0, 0.8) 0,
-        rgba(0, 0, 0, 0.4) 60%,
-        rgba(0, 0, 0, 1) 100%
-      ),
-      url('./img/navBackground.jpg');
-    height: 530px;
-  }
+	nav {
+		background-image: linear-gradient(
+				to top,
+				rgba(0, 0, 0, 0.8) 0,
+				rgba(0, 0, 0, 0.4) 60%,
+				rgba(0, 0, 0, 1) 100%
+			),
+			url('../assets/img/navBackground.jpg');
+		height: 530px;
+	}
 
-  .nav-header {
-    padding: 25px 17px;
-    margin-bottom: -90px;
-  }
+	.nav-header {
+		padding: 25px 17px;
+		margin-bottom: -90px;
+	}
 
-  .nav-header img {
-    width: 90px;
-  }
+	.nav-header img {
+		width: 90px;
+	}
 
-  .nav-header button {
-    padding: 3px 3px;
-    border-radius: 3px;
-  }
+	.nav-header button {
+		padding: 3px 3px;
+		border-radius: 3px;
+	}
 
-  .dropdown {
-    height: 28px;
-    margin: 0 10px 0 auto;
-  }
+	.dropdown {
+		height: 28px;
+		margin: 0 10px 0 auto;
+	}
 
-  .nav-content h2 {
-    font-size: 27px;
-    width: 90%;
-    margin-bottom: 10px;
-  }
+	.nav-content h2 {
+		font-size: 27px;
+		width: 90%;
+		margin-bottom: 10px;
+	}
 
-  .nav-content p {
-    font-size: 18px;
-    width: 85%;
-    margin-bottom: 10px;
-  }
+	.nav-content p {
+		font-size: 18px;
+		width: 85%;
+		margin-bottom: 10px;
+	}
 
-  .nav-content h5 {
-    font-size: 18px;
-    width: 80%;
-    margin-bottom: 10px;
-  }
+	.nav-content h5 {
+		font-size: 18px;
+		width: 80%;
+		margin-bottom: 10px;
+	}
 
-  form {
-    width: 90%;
-  }
+	form {
+		width: 90%;
+	}
 
-  .input-email {
-    width: 100%;
-    height: 50px;
-    padding: 0 10px;
-    font-size: 15px;
-    border-radius: 2px;
-  }
+	.input-email {
+		width: 100%;
+		height: 50px;
+		padding: 0 10px;
+		font-size: 15px;
+		border-radius: 2px;
+	}
 
-  .input-submit {
-    width: 120px;
-    height: 40px;
-    font-size: 16px;
-    margin-top: 15px;
-    border-radius: 2px;
-  }
+	.input-submit {
+		width: 120px;
+		height: 40px;
+		font-size: 16px;
+		margin-top: 15px;
+		border-radius: 2px;
+	}
 
-  section {
-    width: 90%;
-    margin: auto;
-    padding: 50px 0;
-    flex-wrap: wrap;
-  }
+	section {
+		width: 90%;
+		margin: auto;
+		padding: 50px 0;
+		flex-wrap: wrap;
+	}
 
-  section .content {
-    width: 100%;
-  }
+	section .content {
+		width: 100%;
+	}
 
-  section .content h3 {
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-  }
+	section .content h3 {
+		font-size: 25px;
+		font-weight: bold;
+		text-align: center;
+	}
 
-  section .content p {
-    width: 100%;
-    font-size: 18px;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-  }
+	section .content p {
+		width: 100%;
+		font-size: 18px;
+		text-align: center;
+		position: relative;
+		z-index: 1;
+	}
 
-  section .image {
-    margin: -30px 0 0 0;
-    position: relative;
-    z-index: 0;
-  }
+	section .image {
+		margin: -30px 0 0 0;
+		position: relative;
+		z-index: 0;
+	}
 
-  .section-mobile .box-mobile {
-    width: 70%;
-    height: 15vw;
-    transform: translate(22%, -124%);
-  }
+	.section-mobile .box-mobile {
+		width: 70%;
+		height: 15vw;
+		transform: translate(22%, -124%);
+	}
 
-  .box-mobile .gif {
-    height: 100%;
-    width: auto;
-  }
+	.box-mobile .gif {
+		height: 100%;
+		width: auto;
+	}
 
-  .section-tv,
-  .section-mobile,
-  .section-device {
-    margin: auto;
-  }
+	.section-tv,
+	.section-mobile,
+	.section-device {
+		margin: auto;
+	}
 
-  .video-tv {
-    width: 72.5%;
-    position: absolute;
-    z-index: -1;
-  }
+	.video-tv {
+		width: 72.5%;
+		position: absolute;
+		z-index: -1;
+	}
 
-  .video-devices {
-    width: 61%;
-    position: absolute;
-    z-index: -1;
-  }
+	.video-devices {
+		width: 61%;
+		position: absolute;
+		z-index: -1;
+	}
 
-  .section-device p {
-    margin-bottom: 30px;
-  }
+	.section-device p {
+		margin-bottom: 30px;
+	}
 }
 
 @media (min-width: 577px) and (max-width: 991px) {
-  nav {
-    height: 820px;
-  }
+	nav {
+		height: 820px;
+	}
 
-  .nav-header {
-    padding: 25px 45px;
-    margin-bottom: -20px;
-  }
+	.nav-header {
+		padding: 25px 45px;
+		margin-bottom: -20px;
+	}
 
-  .nav-header img {
-    width: 110px;
-  }
+	.nav-header img {
+		width: 110px;
+	}
 
-  .nav-content h2 {
-    font-size: 48px;
-    max-width: 700px;
-    margin-bottom: 10px;
-  }
+	.nav-content h2 {
+		font-size: 48px;
+		max-width: 700px;
+		margin-bottom: 10px;
+	}
 
-  .nav-content p {
-    font-size: 25px;
-    margin-bottom: 10px;
-  }
+	.nav-content p {
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
 
-  .nav-content h5 {
-    font-size: 18px;
-    max-width: 400px;
-    margin-bottom: 10px;
-  }
+	.nav-content h5 {
+		font-size: 18px;
+		max-width: 400px;
+		margin-bottom: 10px;
+	}
 
-  form {
-    max-width: 500px;
-  }
+	form {
+		max-width: 500px;
+	}
 
-  .input-email {
-    width: 100%;
-    height: 50px;
-    padding: 0 10px;
-    font-size: 15px;
-    border-radius: 2px;
-  }
+	.input-email {
+		width: 100%;
+		height: 50px;
+		padding: 0 10px;
+		font-size: 15px;
+		border-radius: 2px;
+	}
 
-  .input-submit {
-    width: 120px;
-    height: 40px;
-    font-size: 16px;
-    margin-top: 15px;
-    border-radius: 2px;
-  }
+	.input-submit {
+		width: 120px;
+		height: 40px;
+		font-size: 16px;
+		margin-top: 15px;
+		border-radius: 2px;
+	}
 
-  section {
-    width: 90%;
-    margin: auto;
-    padding: 50px 0;
-    flex-wrap: wrap;
-  }
+	section {
+		width: 90%;
+		margin: auto;
+		padding: 50px 0;
+		flex-wrap: wrap;
+	}
 
-  section .content h3 {
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-  }
+	section .content h3 {
+		font-size: 40px;
+		font-weight: bold;
+		text-align: center;
+	}
 
-  section .content p {
-    font-size: 20px;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-  }
+	section .content p {
+		font-size: 20px;
+		text-align: center;
+		position: relative;
+		z-index: 1;
+	}
 
-  section .image {
-    position: relative;
-    margin: -30px 0 0 0;
-    z-index: 0;
-  }
+	section .image {
+		position: relative;
+		margin: -30px 0 0 0;
+		z-index: 0;
+	}
 
-  .section-mobile .box-mobile {
-    width: 70%;
-    transform: translate(22%, -124%);
-  }
+	.section-mobile .box-mobile {
+		width: 70%;
+		transform: translate(22%, -124%);
+	}
 
-  .section-tv,
-  .section-mobile,
-  .section-device {
-    margin: auto;
-  }
+	.section-tv,
+	.section-mobile,
+	.section-device {
+		margin: auto;
+	}
 
-  .section-device p {
-    margin-bottom: 30px;
-  }
+	.section-device p {
+		margin-bottom: 30px;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1201px) {
-  section .content {
-    max-width: 100%;
-  }
+	section .content {
+		max-width: 100%;
+	}
 
-  section .content h3,
-  section .content p {
-    text-align: center;
-  }
+	section .content h3,
+	section .content p {
+		text-align: center;
+	}
 }
