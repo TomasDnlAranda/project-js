@@ -2,7 +2,7 @@
 	{
 		"id": 1,
 		"title": "La Niñera",
-		"img": "./img/movie/laninera.jpg",
+		"img": "img/laninera.jpg",
 		"description": "Cuando Cole se queda despierto más tarde de la cuenta, descubre que su niñera forma parte de una secta satánica. Ella está dispuesta a lo que sea para que no los delate.",
 		"year": 2017,
 		"hd": true,
@@ -17,7 +17,7 @@
 	{
 		"id": 2,
 		"title": "21: Blackjack",
-		"img": "./img/movie/21blackjack.jpg",
+		"img": "img/21blackjack.jpg",
 		"description": "Historia basada en hechos reales sobre seis estudiantes del MIT que son entrenados para convertirse en expertos de contar cartas en blackjack. Con este método ganaron millones de dólares en los casinos de Las Vegas.",
 		"year": 2008,
 		"hd": true,
@@ -32,7 +32,7 @@
 	{
 		"id": 3,
 		"title": "Supercool",
-		"img": "./img/movie/supercool.jpg",
+		"img": "img/supercool.jpg",
 		"description": "Seth (Jonah Hill) y Evan (Michael Cera), dos estudiantes co-dependientes de preparatoria, tienen grandes esperanzas en su fiesta de graduación: los jóvenes se sienten retados por la sociedad y planean divertirse en grande y conseguir chicas hermosas para finalmente poder integrarse con sus compañeros.",
 		"year": 2007,
 		"hd": true,
@@ -47,7 +47,7 @@
 	{
 		"id": 4,
 		"title": "La noche de la expiación",
-		"img": "./img/movie/lanochedelaexpiacion.jpg",
+		"img": "img/thepurge.jpg",
 		"description": "Año 2022. En una futura sociedad despótica, el régimen político, llamado Nueva Fundación de los padres de América, ha decidido implantar una medida catártica: la purga anual, según la cual una noche al año se puede cometer cualquier clase de crimen, sin tener que responder ante la justicia.",
 		"year": 2013,
 		"hd": true,
@@ -62,7 +62,7 @@
 	{
 		"id": 5,
 		"title": "365 días",
-		"img": "./img/movie/365dias.jpg",
+		"img": "img/365dias.jpg",
 		"description": "Massimo es miembro de la familia de la mafia siciliana y Laura es directora de ventas. En un viaje a Sicilia tratando de salvar su relación, Laura es secuestrada por Massimo, quien le da 365 días para enamorarse de él.",
 		"year": 2020,
 		"hd": true,
@@ -77,7 +77,7 @@
 	{
 		"id": 6,
 		"title": "Tu primera vez",
-		"img": "./img/movie/tuprimeravez.jpg",
+		"img": "img/tuprimeravez.jpg",
 		"description": "American Pie es una serie de nueve películas estadounidenses de comedia sexual estrenadas entre 1999 y 2020. La primera película de la serie, estrenada por Universal Pictures en 1999, se convirtió en un fenómeno de la cultura pop mundial y se ganó un culto entre los jóvenes.",
 		"year": 1999,
 		"hd": true,

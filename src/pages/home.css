@@ -17,6 +17,7 @@ body {
     transition: background 0.2s linear;
     position: fixed;
     width: 100vw;
+    background-color: #0c0c0c;
 }
   
 .navbar-brand img {
@@ -141,6 +142,15 @@ i {
 
 .netflix-principal-video .video-content .left .img {
     margin-top: 190px;
+}
+
+.moviesCard {
+    background-color: #141414;
+    border-radius: 4px;
+}
+
+.moviesCard img {
+    height: 150px;
 }
 
 @media (max-width: 768px) {
