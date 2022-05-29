@@ -117,6 +117,7 @@ const addMyList = (data, e) => {
 
 const showMyList = () => {
 	myListRow.textContent = '';
+	localStorage.setItem('mylist', JSON.stringify(userList));
 	userList.forEach((item) => {
 		const clone = moviesTemplate.content.cloneNode(true);
 		clone.getElementById('imgCard').src = item.img;
@@ -155,5 +156,12 @@ document.addEventListener('click', (e) => {
 
 	if (e.target.matches('.bi-x-lg')) {
 		deleteListMovieAndSerie(e);
+	}
+});
+
+document.addEventListener('DOMContentLoaded', (e) => {
+	if (localStorage.getItem('mylist')) {
+		userList = JSON.parse(localStorage.getItem('mylist'));
+		showMyList();
 	}
 });
