@@ -20,7 +20,7 @@ nav {
       rgba(0, 0, 0, 0.4) 60%,
       rgba(0, 0, 0, 0.9) 100%
     ),
-    url('./img/navBackground.jpg');
+    url('../assets/img/navBackground.jpg');
   width: 100%;
   height: 750px;
   background-size: cover;
@@ -44,28 +44,6 @@ nav {
   color: white;
   padding: 4px 20px;
   border-radius: 3px;
-}
-
-.dropdown {
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 105px;
-  height: 35px;
-  border: 1px solid;
-  border-radius: 2px;
-  margin: 0 30px 0 auto;
-}
-
-select {
-  background: transparent;
-  color: white;
-  font-size: 14px;
-}
-
-option {
-  color: black;
 }
 
 .nav-content {
@@ -223,7 +201,7 @@ section img {
         rgba(0, 0, 0, 0.4) 60%,
         rgba(0, 0, 0, 1) 100%
       ),
-      url('./img/navBackground.jpg');
+      url('../assets/img/navBackground.jpg');
     height: 530px;
   }
 
@@ -239,11 +217,6 @@ section img {
   .nav-header button {
     padding: 3px 3px;
     border-radius: 3px;
-  }
-
-  .dropdown {
-    height: 28px;
-    margin: 0 10px 0 auto;
   }
 
   .nav-content h2 {

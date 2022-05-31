@@ -37,7 +37,7 @@ main {
   align-items: center;
   position: relative;
   z-index: 0;
-  background-image: url('./img/error404.png');
+  background-image: url('../assets/img/error404.png');
   height: 100vh;
   background-size: cover;
   background-position: center;
