@@ -6,7 +6,7 @@ Este repositorio nació debido al proyecto del módulo 2 de Rolling Code, en el 
 
 #### Uso:
 
-Este proyecto el usaurio puede registrarse, logearse, y una vez logeado ingresar al home para que puede ver las peliculas, agregarlas o eliminarlas de su lista, tambien puede buscar por nombre las peliculas y le arroja los resultados que coinciden.
+Este proyecto el usurio puede registrarse, logearse, y una vez logeado ingresar al home para que puede ver las peliculas, agregarlas o eliminarlas de su lista, tambien puede buscar por nombre las peliculas y le arroja los resultados que coinciden.
 
 #### Tecnologias:
 
