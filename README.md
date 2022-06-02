@@ -1,6 +1,6 @@
-## Welcome to Project-js repository!
+## Bienvenido al proyecto Netflix Interfaz!
 
-#### Introduction:
+#### Introduccion:
 
 Este repositorio nació debido al proyecto del módulo 2 de Rolling Code, en el que teníamos que crear una página para demostrar lo que habíamos aprendido hasta ahora. Decidimos recrear la página de Netflix utilizando nuestros conocimientos y capacidades.
 
@@ -8,15 +8,13 @@ Este repositorio nació debido al proyecto del módulo 2 de Rolling Code, en el 
 
 Este proyecto el usaurio puede registrarse, logearse, y una vez logeado ingresar al home para que puede ver las peliculas, agregarlas o eliminarlas de su lista, tambien puede buscar por nombre las peliculas y le arroja los resultados que coinciden.
 
-#### Technologies:
-
-#### Technologies:
+#### Tecnologias:
 
 HTML, CSS, JavaScript, Bootstrap.
 
-#### Group 1 Members:
+#### Miembro del Grupo 1:
 
--Trinidad Gonzales Chaves (Srum Master)
+-Trinidad Gonzales Chaves (Scrum Master)
 <br>
 -Tomas Aranda
 <br>
