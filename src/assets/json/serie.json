@@ -126,5 +126,53 @@
 		"people": "16+",
 		"like": false,
 		"mylist": false
+	},
+	{
+		"id": 23,
+		"title": "Lucifer",
+		"imgmodal": "../assets/imgserie/modallucifer.jpg",
+		"img": "../assets/imgserie/lucifer.jpg",
+		"description": "Aburrido de ser amo del infierno, el diablo se muda a Los Ángeles donde abre un club nocturno y se relaciona con una detective de homicidios.",
+		"year": 2016,
+		"hd": true,
+		"fiveone": false,
+		"cast": "Tom Ellis,Lauren German,Kevin Alejandro",
+		"direction": "Greg Daniels",
+		"sesseon": 6,
+		"people": "13+",
+		"like": false,
+		"mylist": false
+	},
+	{
+		"id": 24,
+		"title": "Riverdale",
+		"imgmodal": "../assets/imgserie/modalriverdale.jpg",
+		"img": "../assets/imgserie/riverdale.jpg",
+		"description": "El paso a la edad adulta incluye sexo, romance, escuela y familia. Para Archie y sus amigos, también hay misterios oscuros.",
+		"year": 2017,
+		"hd": true,
+		"fiveone": false,
+		"cast": "K.J. Apa, Lili Reinhart, Camila Mendes",
+		"direction": "Roberto Aguirre-Sacasa",
+		"sesseon": 5,
+		"people": "16+",
+		"like": false,
+		"mylist": false
+	},
+	{
+		"id": 25,
+		"title": "Breaking Bad",
+		"imgmodal": "../assets/imgserie/modalbreaking.jpg",
+		"img": "../assets/imgserie/breaking.jpg",
+		"description": "Un profesor de Química de secundaria con cáncer terminal se asocia a un exestudiante para asegurar el futuro de su familia al fabricar y vender metanfetamina.",
+		"year": 2008,
+		"hd": true,
+		"fiveone": false,
+		"cast": "Bryan Cranston, Aaron Paul, Anna Gunn",
+		"direction": "Vince Gilligan",
+		"sesseon": 5,
+		"people": "16+",
+		"like": false,
+		"mylist": false
 	}
 ]
