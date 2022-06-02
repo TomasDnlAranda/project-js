@@ -201,7 +201,7 @@ section img {
         rgba(0, 0, 0, 0.4) 60%,
         rgba(0, 0, 0, 1) 100%
       ),
-      url('../assets/img/navBackground.jpg');
+      url('/assets/img/navBackground.jpg');
     height: 530px;
   }
 
@@ -873,6 +873,7 @@ footer p {
   .section-accordion {
     width: 100%;
   }
+
   .section-accordion .accordion-title {
     font-size: 25px;
     margin-bottom: 25px;
@@ -1001,6 +1002,7 @@ footer p {
   .section-accordion {
     width: 90%;
   }
+
   .section-accordion .accordion-title {
     margin-bottom: 25px;
   }
