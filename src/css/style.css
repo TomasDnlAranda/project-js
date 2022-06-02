@@ -295,7 +295,7 @@ footer p {
         rgba(0, 0, 0, 0.4) 60%,
         rgba(0, 0, 0, 1) 100%
       ),
-      url('/assets/img/navBackground.jpg');
+      url('../assets/img/navBackground.jpg');
     height: 530px;
   }
 
