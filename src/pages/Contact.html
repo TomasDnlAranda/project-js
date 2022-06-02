@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+          
+    <link rel="stylesheet" href="./contact.css" />
+</head>
+
+<body>
+    <header class="fixed-top shadow-sm sticky-top px-2 py-2">
+            <div class=" container-fluid  mx-lg-1 ms-lg-3 ">
+                <img src="./assets/img/netflixIcon.ico" alt="logo Netflix" />
+            </div>
+    </header>
+    
+  </head>
+  <body>
+    <section class="form-login">
+      <form>   
+      <input type="text" name="userName" class="controls " id="exampleFormControlname" placeholder = "Nombre"  minlength="5" maxlength="50" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required>
+      <input type="email" name="userEmail" class="controls " id="exampleFormControlEmail" placeholder="Nambre@correo" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,15}" required title ="ingrese un correo valido">
+      <label for="exampleFormControlTextarea" class="form-label"></label>
+      <textarea type ="text" texto="" class="controls" id="exampleFormControlTextarea" placeholder="Comentario ... " rows="3"  required></textarea>                
+      <input class="buttons" type="submit" name="" value="Enviar">
+      <form>   
+    </section>
+
+  </body>
+</html>

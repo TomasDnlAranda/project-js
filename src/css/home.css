@@ -163,7 +163,8 @@ i {
 	padding: 2.5px 5px;
 }
 
-#myListRow {
+#myListRow,
+#searchRow {
 	height: 135px;
 }
 
