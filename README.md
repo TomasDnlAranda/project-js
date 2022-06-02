@@ -11,7 +11,7 @@ HTML, CSS, JavaScript.
 #### Group 1 Members:
 
 -Trinidad Gonzales Chaves (Srum Master)<br>
--Tomas Arandabr<br>>
+-Tomas Aranda<br>>
 -Ignacio Conort<br>
 -Federico Herrera<br>
 -Vanesa Sierra<br>
