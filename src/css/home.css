@@ -91,11 +91,13 @@ i {
 	align-items: center;
 }
 
-.netflix-nav button {
+.netflix-nav a {
 	background-color: transparent;
 	color: rgba(255, 255, 255, 0.623);
 	border: none;
 	font-size: 13px;
+	text-decoration: none;
+	margin: 0 0.4rem;
 }
 
 .netflix-nav button:hover {

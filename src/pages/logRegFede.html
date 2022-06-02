@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="../assets/img/netflixIcon.ico" type="image/x-icon" />
 		<title>Login & Register</title>
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -18,20 +19,19 @@
 	</head>
 	<body class="row m-auto">
 		<form id="register" class="col-5 container mx-auto my-5">
-			<h2 class="h2 mb-3 text-center">Register</h2>
+			<h2 class="h2 mb-3 text-center">Registrarse</h2>
 			<div class="mb-3">
-				<label for="email_contact" class="form-label">Email address</label>
+				<label for="email_contact" class="form-label">Correo Electronico</label>
 				<input
 					type="email"
 					class="form-control"
 					id="newEmail"
 					maxlength="15"
-					placeholder="Email"
-					value="tomas@gmail.com"
+					placeholder="correo@correo.com"
 				/>
 			</div>
 			<div class="mb-3">
-				<label for="password_contact" class="form-label">Password</label>
+				<label for="password_contact" class="form-label">Contraseña</label>
 				<input
 					type="password"
 					class="form-control"
@@ -39,10 +39,9 @@
 					minlength="6"
 					maxlength="15"
 					placeholder="Contraseña"
-					value="123456"
 				/>
 			</div>
-			<button type="submit" class="container btn btn-primary">Submit</button>
+			<button type="submit" class="container btn btn-primary">Registrarse</button>
 			<div class="alert alert-danger mt-3 d-none" role="alert" id="alert-register">
 				Llene todos los campos correctamente
 			</div>
@@ -51,18 +50,17 @@
 		<form id="login" class="col-5 container mx-auto my-5">
 			<h2 class="h2 mb-3 text-center">Login</h2>
 			<div class="mb-3">
-				<label for="exampleInputEmail1" class="form-label">Email address</label>
+				<label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
 				<input
 					type="email"
 					class="form-control"
 					id="email"
 					maxlength="15"
-					placeholder="Email"
-					value="tomas@gmail.com"
+					placeholder="correo@correo.com"
 				/>
 			</div>
 			<div class="mb-3">
-				<label for="exampleInputPassword1" class="form-label">Password</label>
+				<label for="exampleInputPassword1" class="form-label">Contraseña</label>
 				<input
 					type="password"
 					class="form-control"
@@ -70,10 +68,9 @@
 					minlength="6"
 					maxlength="15"
 					placeholder="Contraseña"
-					value="123456"
 				/>
 			</div>
-			<button type="submit" class="container btn btn-primary">Submit</button>
+			<button type="submit" class="container btn btn-primary">Ingresar</button>
 			<div class="alert alert-danger mt-3 d-none" role="alert" id="alert-login">
 				Llene todos los campos correctamente
 			</div>
@@ -88,7 +85,9 @@
 			>
 		</form>
 		<div class="mx-auto col-12 row mb-5">
-			<button type="button" onclick="reset()" class="col-4 btn btn-primary m-auto">Reset</button>
+			<button type="button" onclick="reset()" class="col-4 btn btn-primary m-auto">
+				Reiniciar
+			</button>
 		</div>
 		<script src="https://cdn.jsdelivr.net/gh/tufantunc/node-console-success/dist/index.js"></script>
 		<script src="../js/logRegFede.js"></script>
