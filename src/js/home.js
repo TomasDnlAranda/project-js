@@ -1,8 +1,11 @@
 const moviesTemplate = document.getElementById('moviesTemplate');
+const searchTemplate = document.getElementById('searchTemplate');
 const fragment = document.createDocumentFragment();
 const moviesRow = document.getElementById('moviesRow');
 const serieRow = document.getElementById('serieRow');
+searchDiv;
 const myListRow = document.getElementById('myListRow');
+const searchRow = document.getElementById('searchRow');
 const modalTemplate = document.querySelector('.modal__container-all');
 const containerModal = document.querySelector('.modalContainer');
 const titleModal = document.querySelector('.modal__container-text h3');
@@ -16,6 +19,11 @@ const timeModal = document.querySelector('#modal__time');
 const myListIcon = document.querySelector('.bi-plus');
 const deleteListIcon = document.querySelector('.bi-x-lg');
 const containerIcons = document.querySelector('.modal__container-icons');
+const iconSearch = document.getElementById('icon-search');
+const iconSearchExit = document.getElementById('icon-search-exit');
+const btnSearch = document.getElementById('search-btn');
+const btnSearchFalse = document.querySelector('.input-search');
+const formSearch = document.querySelector('#form-search');
 
 let userList = [];
 
@@ -142,6 +150,47 @@ const deleteListMovieAndSerie = (e) => {
 	showMyList();
 };
 
+const showInputSearch = () => {
+	btnSearchFalse.style.display = 'flex';
+};
+
+const showDeleteInputSearch = () => {
+	btnSearchFalse.style.display = 'none';
+};
+
+const resultsSearch = async (name) => {
+	const all = '../assets/json/allmovieandserie.json';
+	try {
+		const res = await fetch(all);
+		const data = await res.json();
+		showResultsSearch(data, name);
+	} catch (err) {
+		console.log(err);
+	}
+};
+
+const showResultsSearch = (arr, name) => {
+	searchRow.textContent = '';
+	const filterSearch = arr.filter((item) => item.title.toLowerCase().includes(name));
+	filterSearch.forEach((item) => {
+		const clone = searchTemplate.content.cloneNode(true);
+		clone.getElementById('imgCard').src = item.img;
+		clone.getElementById('imgCard').dataset.id = item.id;
+		clone.getElementById('imgCard').dataset.imgmodal = item.imgmodal;
+		clone.getElementById('imgCard').dataset.title = item.title;
+		clone.getElementById('imgCard').dataset.description = item.description;
+		clone.getElementById('imgCard').dataset.sesseon = item.sesseon;
+		clone.getElementById('imgCard').dataset.year = item.year;
+		clone.getElementById('imgCard').dataset.cast = item.cast;
+		clone.getElementById('imgCard').dataset.direction = item.direction;
+		clone.getElementById('imgCard').dataset.time = item.time;
+		clone.getElementById('imgCard').dataset.people = item.people;
+		clone.getElementById('imgCard').dataset.mylist = true;
+		fragment.appendChild(clone);
+	});
+	searchRow.appendChild(fragment);
+};
+
 document.addEventListener('click', (e) => {
 	if (e.target.matches('.img-fluid')) {
 		showDescriptionMovie(e);
@@ -157,6 +206,18 @@ document.addEventListener('click', (e) => {
 	if (e.target.matches('.bi-x-lg')) {
 		deleteListMovieAndSerie(e);
 	}
+
+	if (e.target.matches('.bi-search')) {
+		iconSearch.style.display = 'none';
+		iconSearchExit.style.display = 'flex';
+		showInputSearch();
+	}
+
+	if (e.target.matches('.bi-x-circle-fill')) {
+		iconSearch.style.display = 'flex';
+		iconSearchExit.style.display = 'none';
+		showDeleteInputSearch();
+	}
 });
 
 document.addEventListener('DOMContentLoaded', (e) => {
@@ -164,4 +225,13 @@ document.addEventListener('DOMContentLoaded', (e) => {
 		userList = JSON.parse(localStorage.getItem('mylist'));
 		showMyList();
 	}
+});
+
+formSearch.addEventListener('submit', (e) => {
+	e.preventDefault();
+	const data = new FormData(formSearch);
+	const [name] = [...data.values()];
+
+	if (!name.trim()) return;
+	resultsSearch(name.toLowerCase());
 });

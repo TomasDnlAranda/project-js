@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login & Register</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <body class="row m-auto">
+    <!-- Register Form -->
+    <form id="register" class="col-5 container mx-auto my-5">
+      <h2 class="h2 mb-3 text-center">Register</h2>
+      <div class="mb-3">
+        <label for="email_contact" class="form-label">Email address</label>
+        <!-- Input User Email -->
+        <input
+          type="email"
+          class="form-control"
+          id="newEmail"
+          maxlength="15"
+          placeholder="Email"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="password_contact" class="form-label">Password</label>
+        <!-- Input User Password -->
+        <input
+          type="password"
+          class="form-control"
+          id="newPassword"
+          minlength="6"
+          maxlength="15"
+          placeholder="Contraseña"
+        />
+      </div>
+      <button type="submit" class="container btn btn-primary">Submit</button>
+    </form>
+
+    <hr style="height: 10px; background-color: black" />
+
+    <!-- Login Form -->
+    <form id="login" class="col-5 container mx-auto my-5">
+      <h2 class="h2 mb-3 text-center">Login</h2>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <!-- Input User Email -->
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          maxlength="15"
+          placeholder="Email"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <!-- Input User Password -->
+        <input
+          type="password"
+          class="form-control"
+          id="password"
+          minlength="6"
+          maxlength="15"
+          placeholder="Contraseña"
+        />
+      </div>
+      <button type="submit" class="container btn btn-primary">Submit</button>
+    </form>
+    <div class="mx-auto col-12 row">
+      <button
+        type="button"
+        onclick="reset()"
+        class="col-4 btn btn-primary m-auto"
+      >
+        Reset
+      </button>
+    </div>
+    <!-- Scripts-->
+    <script src="https://cdn.jsdelivr.net/gh/tufantunc/node-console-success/dist/index.js"></script>
+    <script src="../js/logRegFede.js"></script>
+  </body>
+</html>
